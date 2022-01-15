@@ -1,0 +1,1056 @@
+Hello GitHub
+Update README.md
+A modified test idea for MyLibrary
+A modified test idea for MyLibrary
+https://github.com/ddurdle/repository.ddurdle.git
+https://github.com/ddurdle/repository.ddurdle.git
+https://github.com/ddurdle/repository.ddurdle.git
+issues
+issues
+help
+help
+This is the first ever commit of GitHub.
+Hehe
+Updated Docs
+test
+boyh
+stan issue test
+asdf
+asdf
+Hello
+Hello GitHub
+weq
+weq
+weq
+weq
+Link also to gitlabhq/grit
+grit: fix sort order of newly-created trees with sub-trees
+vdfvdfvfv
+fvdgfdgs
+hello
+10 issue
+issue 4
+issue 3
+6 issue
+fifth issue
+fifth issue
+fourth issue
+third issue
+issue 2
+new issue test
+rakelib install_file: pass options as **options
+bignum.cpp: Avoid long to double conversion under conditional test
+timing.hpp: Casting to atomic uint64_t before Running/last_ assignment
+ffi_util.cpp: include sys/sysmacros.h only under GNU Libc and uclibc
+(non-issue) rubinius cache file rubinius-codedb-cache.bz2 is not a tape archive
+HTTPS certificate expired for https://rubinius.com
+undefined method `to_sexp' on an instance of String. (NoMethodError)
+Improvements to C code that can improvement robustness
+error: implicit declaration of function 'rb_sys_fail_str' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+Error on installing rbx-2 with rvm on wsl ubuntu 20.04
+Fixup build failure with clang-11.0.0
+llvm-config tbd file system argument mac
+Rubinius 5.0 fails to compile with clang 9.0.1 on Fedora
+rubyc vs rubinius-x
+god cannot be used with Rails 3.0
+Use Timeout.timeout instead of Object#timeout
+Reference documentation
+Ppls help me on idea i wannaa create a working search box where users cam serch for admins to contact
+Limit logs file size 
+Is this project alive?
+God load crashes when dependencies are required from god config files
+Cannot build on macos + ruby 2.4.3 + god 0.13.7
+Your code is not worthy of being called "God"
+god status says process is "up" when it's continuously restarting
+Prevents god from resurrecting a keepalive process that has been stopped
+god continues to monitor and resurrect process after executing 'god stop <task name>'
+'gem install god' fails with NotImplementedError: C extensions are not supported
+Transition diagram?
+ruby god state transition diagram 
+Unable to start netlink event handler within docker container 
+How to check (or log) memory_usage by a worker process before it restarts?
+Updated slack contact file usage description
+Stop jobs that doesn't exist in config
+Permission not being passed through correctly
+god does not receive ProcessExits event when running as a server.
+allow change directory for socketfile
+Add the option to use a proc to modify the data being sent by a webhook 
+ Object#timeout is deprecated warning
+get page size from system variable
+escape room name in hipchat notification
+Misleading error message
+God should be a simple way to start when system startup.
+add support of custom hipchat instance
+Can't get God.rb to send emails
+Fixed comment of slack contact integration.
+Feature: Process STDOUT in god log
+Update patch version for ruby
+Flapping on file_touch condition
+Explicitly catch NoMethodError instead of catching with Object when there are no events in queue
+Segmentation fault
+Introduce a poller for the elapsed time of a process
+Always write pid file if specified in flags
+FreeBSD 10.1 - Process fails to respawn
+Use simplecov instead of rcov.
+Enable Sourcegraph
+Fix minor "sample.god" typo in asciidoc.
+CPU usage is measured incorrectly
+Hipchat integration requires admin token
+Update god.gemspec
+Homepage in gemspec is invalid
+Flapping condition doesn't work
+Fix link for Prowl in index.html
+Campfire with 0.13.4
+Threads preventing stop_all from working completely
+God won't restarted died process inside docker
+wrong w.pid_file initiate in the config file in the example
+'sample.god' should be 'simple.god'
+god load
+God can not support setting environment variables in the start command to launch other service
+log does not write until process is stopped
+incorrect status "start" when the process is "up"
+PID dir can be specified for worker processes
+"The server is not available (or you do not have permissions to access it)"
+If I can't send an email, restarting a process fails
+God will not terminate cleanly on FreeBSD 10
+We need a "down" state
+Setting uid/gid does not apply any additional groups the user may belong to
+Ruby 2.1 possibly 2.0 (didn't test 2.0) incompatiblity
+Contradictory Documentation/Example code
+Lifecycle conditions are disabled on restart
+unicorn_rails start command exited with non-zero code = 10
+[fix #129] Fix register/de-register bug when process is restarted out-of-band.
+Specify syslog server for remote logging
+Prevent from starts two processes
+god doesn't seem to properly de-register process_exit monitoring
+Duplicate processes starting
+clean_pid_file behavior seems too naive
+God and Ruby 2.0.0
+WARN: technical_worker start command exited with non-zero code = 1
+god thinks its really THE GOD and kills non-monitored process mongod at times
+Small change to campfire contact to allow the use of a proxy to get to outside world
+something is wrong on the website?
+God::EventHandler.start will not called unless initial config file
+Enable multiple gods on one system, run by non-root users.
+God gets stuck in "start" state and never restarts process
+w.keepalive(:socket_responding => "tcp:12345") ignored?
+Process Dependencies?
+Watch#keepalive insists on using EventHandler when it is not operational
+God reports incorrect up status when it fails to fork
+Debugging custom conditions is incredibly hard
+Would like to add a shell return conditional which would be nice
+Manually changing working directory causes god to lose track of PID
+Missing event system in Ubuntu linux?
+Your core language patches break ActiveSupport
+Suggestion: Rename `stop` command to `smite`
+Can not stop after one "stop start" cycle 
+Conditions for child processes
+Missing proc_exit event
+Corrected Typo in god.asciidoc L#587
+Documentation wrong for email notifications per smtp
+Duplicate PIDs in .god/pids
+Segmentation fault with Ruby Enterprise Edition 2011.12
+SSL support for SMTP notifications
+Added Twilio Contact
+segfault with Ruby 1.9.3-p0 and Ubuntu 10.04
+Unhandled exception (StandardError): No buffer space available
+sugar.rb causes 5.kilobytes and 5.bytes to return the same value
+Stuck on init
+God appears to be leaving old god processes around indefinitely
+Beefed up Complex test method
+God occasionally does not realise that a process has died and reports 0kb memory usage in log
+Setting working directory not working with Ruby 1.9.2 ?
+Increment/decrement processes
+disk_usage doesn't work (Ubuntu 10.4)
+log feature undocumented
+God notifications don't work properly using TLS and gmail hosted domains
+Race condition makes "god terminate" intermittently fail
+Multiple Processes/PIDs per Watch
+Ruby 1.9.1 and god
+"god check" failure
+God segfaults on new RE with thread patches
+The server is not available (or you do not have permissions to access it)
+new issue
+Propose new line
+Update wrong jQuery code
+Updated Readme file
+Optimise_Images
+Update README.markdown
+Password validation on all attribute updates
+consuming plugin's authentication data in other languages (java)
+Cleaned up a bunch of markdown formatting in README
+Rake deprecation warning for Rails 2.3.10
+Not on rubygems.org
+Removed duplicate recently_activated? action
+Could not find generator authenticated
+Date formatting problem
+Support Rails' standard plugin installation mechanism.
+logout does not invalidate sessions when using ActiveRecord::SessionStore
+recently_activated missing question mark (?) in generator
+NoMethodError when session kept in cookie is recovered
+Validation with Authentication.email_regex fails on some RFC5322-valid addresses
+Forceful Migrations
+Default redirect for 'SessionsController#create' template is hard coded
+Incompatible with Rails 3 bundler
+display welcome message with username after login
+SecurityError
+removed installation instructions as submodule
+Cucumber issues
+Move to Gemcutter?
+remember_me will never work?
+Master branch broken create user method
+missed issue in documentation
+database session store
+note_failed_signin unescaped string
+Fixed and improved error messages
+Upgrade Rails ActiveRecord update_all syntax post Rails 2.3.8
+Optimise_Images
+Error when attempting to install attachment_fu using bundler
+Depracation Fix
+Please pull fix for rails 1.2.6
+test do not run without being inside a rails project
+In my production machine thumbnils arte not getting created
+Kernel#returning => Object#tap
+TypeError (can't convert nil into Integer): 
+Server Setting Missing In Config File
+Solved Rails 3.0.3 temp_file size problem. Maybe this needs a more solid fix
+Rails3 and attachment_fu
+Word 2010 view
+Validating image dimensions before save
+Core Image Processor causes segmentation faults on OS X 10.6.x - 64bit.
+remove "returning" to avoid rails 2.3.9 deprecation warnings
+attachment_fu + ruby 1.9.1
+S3/Cloud Creates wrong public path when using separate thumbnail class
+Switching between different machines 
+batch import does not create thumbnails and does not take into account MetaModel attachment options
+displaying pdf attachment inline, in the view (problem with browsers on Windows) 
+Rails 3
+bug in ImageScience when it processes .gifs
+in Windows, uploading to Amazon S3 and Rackspace Cloud Files fails
+Uploaded files end up in wrong place
+public_filename does not return relative path
+Mongrel_rails prefix
+attachement_fu and rails 3.0
+No such file to load -- ftools
+Datamapper support?
+Size restrictions are not properly applied to separate thumbnail class.
+GD2 problem
+Tempfiles in tmp/attachment_fu are not proactively deleted
+Files not properly "required"
+validates_as_attachment does not allow for custom error messages
+Optimise_Images
+Optimise_Images
+Optimise_Images
+Testerino
+Add Truffleruby head to CI
+Update tcp_spec.rb
+Not working on Debian / Linux Mint - eventmachine error
+rspec doesn't run after cloning the repository
+Include rack handler test
+Running thin behind a pipe doesn't show messages
+Do not wait indefinitely for process to finish
+For clusters, allow --wait to be passed down
+Add support for grouping cluster restarts
+thin install - systemD support
+Minor (but important!) readme fix
+Changes to suppress Rails3 warning
+Don't set flash for Ajax requests
+uninitialized constant ResourceController
+R_C and MimeType::register_alias aliased mime types?
+Feature Request: Custom actions
+application_controller / application dependency check issue
+rescue_from not working
+allow scoping finds and creates by non parent
+Conflict with tiny_mce plugin
+Add allow_nil option
+Use better default validation msg for enum
+How can i refresh cache right now?
+cache_fu's config is conflict to config in rails3
+Tests don't pass
+tests fail/ Rails site fails
+avoid overriding the "cache_key" method for ActiveRecord::Base children
+Action caching broken
+Looking to help...
+tidy up inline documentation and clarify $ variable
+Determine policy for which versions of git are supported
+Drop support for EOL Ruby versions
+Integrate Rubocop into the project
+CI Build Fails for Ruby 3.2
+How to switch between SSH keys?
+Git::Lib#stash_save not compatible with git 2.30.2
+#531 add API to get default branch
+Add default_branch feature
+Added allow_unrelated_histories option support for pull
+Git.ls_remote fails when stderr isn't empty
+Clone through proxy
+`HEAD detached...` shows as a local branch (in `g.branches.local`)
+Commit message escaping issues under Windows
+Worktree new branch checkout test
+Submodule test
+Improve worktree tests
+Git::Lib#ls_tree ignore other types fix
+Git::Object::Tree#check_tree throws exception on a submodule, type 'commit'
+First remote branch "HEAD -> origin/master" is a special case and fails gcommit.sha
+Allows a logger to be given during cloning
+Support multiple --config options in Git.clone
+feat: add support for git push options
+Add --all option to commands like git log
+Add support for renaming branches
+`#status` fails on a new repo
+Streaming stdout instead of one response
+Pull without args results in unexpected operation
+status untracked returns all files when ruby working directory is not same as git repo root
+Add git_ssl_no_verify option to disable SSL verification for HTTPS repos
+Diff parsing fails when filenames contain unicode characters
+Refactor git config
+Allow creating new config entries
+archive files generated with archive() may be corrupted
+Using one repo per thread results in errors
+failure if git not in path on "require 'git'"
+Slow performance for large number of branches
+Added necessary .gitgnore file
+Test case failure; with (very rough) proposed fix
+Nokogiri XML Namespaces and gzip decoding
+Merging 
+Issue with namespace prefixes?
+Update lib/calais.rb
+store_rdf is type-checked as boolean but must be stringified in XML
+Fixed minor typo in README.markdown
+Un-parseable date
+Returning incorrect time
+add latest Rubies version on Travis Ci
+Chronic thinks it can parse a date if the string begins "a "
+Chronic not selecting correct 1st monday of the month
+Remove deprecated option from gemspec
+[Gem bug only] Parser handles missing years differently with numbers vs month names
+Fix Daylight Savings parsing
+Refactor Tokenizer::tokenize by not relying on Tokenizer::char_type a…
+Time arithmetic accounts for Daylight Savings transition hour gain/loss
+[QUESTION] Where I can find the CI service?
+Chronic parsing "today at noon" as tomorrow midnight - daylight saving related
+guard against nil `span` when calculating offset
+Chronic can't parse year "00": returns nil
+Common format like 'Thursday 07 March 2019' is not supporting, which is even supported by DateTime
+Parsing "next january" throws runtime error
+Add 'in a' parsing
+undefined method `begin' for nil:NilClass
+Suppress Ruby interpreter warnings
+Bug/Exception: NoMethodError: undefined method `begin' for nil:NilClass
+Returning an array of dates
+"in 1 week" vs "in a week"
+Parse datetime in a full string
+Should parse ISO8601 microsecond timestamps
+Incorrect date parse
+Site Not Found
+"last weekday" on 2018-03-12 in Chicago returns Saturday
+Crash: Undefined method '+' for nil:Nilclass
+Feature to have "previous weekday" as an option.
+Daylight savings messes with parsing "[x] weeks from [date] at [time]
+[question] Can I tell Chronic to only parse a date if it contains a day, month and year?
+If day at begining retruns null (i.e. Wed, Sep 27, 2017)
+undefined method `time_class=' for Chronic:Module
+Add default_time_now option to make Chronic use current time on specified date if no time is specified
+context: :past not working?
+Strict order of day, month and year on date formats
+Time in PM with leading zero is not parsed correctly
+Support European format d-m-yy 2-digit year and 1-digit day & month
+'1st this month' gives 01-03-2017 but today is 28-02-2017
+Use OmNomNum
+adding synonymous date/time
+1st Sunday in January gives Jan 1st but 1st Sunday this month gives Jan 8th
+Parse date range
+Localization
+Rewrite Handlers, Repeaters and improve Tagging
+Dot dates with no leading zero on month (11.2.2016) parse incorrectly
+Can't parse negative offsets with Active Support 4.2.7.1
+'sunday next week' returns nil during certain dates
+Chronic parses "a " as a date
+Use a map to avoid gsub on every parse pattern
+Allow disabling Numerize to use far less memory
+Question about next day/current day
+Undefined method start for nil class
+Cannot parse timestamp provided by Microsoft Azure API
+Fully specified date fails because of unrelated tick at end of sentence "'"
+when a fully specified date is present, chronic is confused by "LAST"
+Correct spell for fourty and fourtieth are forty and fortieth
+3rd Thursday of the month?
+Wrong result when parsing 27-03-2016 00:**
+Please add new maintainers
+Cannot parse 'yesterday at 9am' the day after DST starts.
+3/13/2016 12:35 AM returns nil
+Parsing 'first this month' on 2/29 outputs 3/1
+Incorrect "month" date for Feb when it is a leap year
+Inconsistent results when parsing different time conventions (12-hour vs 24-hour clock)
+Use #cover? on ranges
+Just a note to say Thanks!
+numerizer handles "first" and "third". Cannot handle "second"
+Future time of day does not work
+Any similar maintained gem?
+Is this project maintained anymore?
+country specific start of the week support
+Parsing hour < 6 gets converted to PM
+Future context fails on relative dates within the same month
+project URL 404s
+Crash when parsing 'Midnight' with negative timezone
+Allow time_class to be given as an option to Chronic.parse
+Support "a" preposition - "in an hour" / "in a day"
+Feature Request: support for "an"
+"First Friday of next June" throws Runtime error in Chronic 0.10.2
+Different parsing result for same time without date/with date/without date
+Add 'today' parameter to .parse method
+Mother's day parsing (calling 'next' may when current month is May)
+Can't parse 3/8/2015 for some reason
+last failing on first of the month
+The first free fish
+Bug(s): Relative time with "at"
+parse broken against "t" (String)
+Feature Request: option to specify which handlers to use
+Parse `monday` returns next monday
+'next n days', 'previous n days', where n is a number yields unexpected results
+Unexpected result when adding a `.`
+Support for repeated times
+Parsing dates with years less than 1000
+Wrong expected date on Sunday
+Unable to inject parameters into Chronic.parse
+"7 days ago at 00:00" parses to "23:00" when crossing daylight savings time
+Parse sentence that consist not only a date
+in 1 week at 9am
+Chronic parse broken 
+Another localization
+ArgumentError when certain ordinal words are passed
+Incorrectly parses "String 1" as a date
+"1st monday this month" not parsed correctly
+option to retrieve the non time component of the string
+a bug with test_parsing
+'the 1st of next month' not parsed correctly
+http://injekt.github.com/chronic doesn't work.
+extract recognized format when parsing
+time range support
+Parsing only 'first' as a word
+"Last Saturday in March" not parsed
+Feature: Popular Holiday and Religious Dates
+Minutizer
+NoMethodError instead of returning nil
+Feature suggestion:  "next[|previous] leap year"
+fails to parse "03/10/2013 12:00 AM"
+Chronic fails to parse 'Jan 1, 12:00 noon'
+Hook for language support
+next week sunday returning nil
+Chronic.parse('string', guess: false).end gives incorrect date-time
+Made time_class thread safe
+Chronic.parse('first monday of the month at 9am') doesn't work
+Control how numbers on their own are treated
+Does not parse "the monday after next" :o(
+Support an option to preserve timezone offset
+Setting time zone and thread safety
+Changes to Time.zone are not reflected in Chronic parsing
+Possible daylight savings time issue for March 10 in AST (Rails)
+Getting nil trying to parse 'March 10, 2013 at 12am'
+"Last winter" range returns ending date earlier than start date
+Issues Parsing "Second" as an Ordinal Number
+Daylight Savings not handled properly
+Chronic.parse('2000', :guess => false) returns 20:00, not the year 2000
+Time zones only work with certain formats
+Chronic.parse('next year Jan 1 12:00') return nil
+:context => :past ignored?
+Add localization support for chronic
+Chronic.parse('1200') returns 12am, not 12pm
+:guess => false includes next day
+New context: this_year
+"9 AM tomorrow" does not parse
+Different results when parsing '1st' and 'first'
+Summer 2003 returns as 20:03 on Jan 21st
+:context => :past mostly ignored when parsing time (6am, 2:00)
+last day of the month
+request: teach chronic to parse "last quarter", "this quarter", etc.
+Nice license
+doc
+logger.lib不支持？
+blakerry 9300
+work
+Changed link to al3x's fork
+Sinatra 1.0 in file templates method deprecation
+It does not start with the following versions:
+Plugins need upgrade
+Sessions Donot Clear
+routes_auto_complete.rb  not work with rails 4
+Optimise_Images
+Failure running "Quick Migration"
+Install with Git
+Update Snippets/image_tag.tmSnippet
+Added json to Create resources Controller
+Add Go To Alternate File for haml with gem 'haml' in Gemfile
+Fix migration snippets for Rails 3.1 so they can find def down as well as def self.down
+Add support for folding if statements in ERB
+Cucumber syntax warning
+add support for slim
+path error when using Show DB Schema for Current Class
+Class definition with :: doesn't seem to be honored with code coloring
+rails 3 generators from textmate
+erb indentation not quite right?
+Editing js.erb files in Rails 3
+Show error when rails path is not found
+opt-cmd-down does not see js.erb view files
+Untitled
+generate {scaffold, ...} command tries to run script/generate in Rails 3
+Bundle Help displaying keystrokes incorrectly
+insert_add_column_or_create_table.rb:9:in `unprepend': private method `split' called for #<Array:0x1011e9d60> (NoMethodError)
+Jump to Method Definition steals ⌃f
+show db schema doesnt work with ruby 1.9
+Running test from TextMate in a Rails 3 project
+Assertions
+How will we support Rails 2 and Rails 3 in the Commands and Snippets?
+Autocomplete Foreign Key Fixture Reference runtime error
+'Remote' is added to the global namespace
+$.fn.delegate overwrites the default jquery method
+is this dead? 
+Optimise_Images
+Adding support for m1.medium instances.
+add license information to the gemspec
+support for m1.medium instances and higher versions of rake (>= 0.8.7)
+Odagiri 20120608
+Adding m1.medium to the list of valid instance types.
+Support filtering in describe instances
+Change of top-level namespace to fix conflict with official Amazon aws-sdk
+Update EC2 API to version 2011-11-01 and add support for new DescribeInstanceStatus API call
+add new cc2.8xlarge instance
+Hi! I cleaned up your code for you!
+Added support for CloudWatch's PutMetricData
+Fix relative-path inclusion to work with Ruby 1.9.2 and later.
+Filter snapshots and volumes
+Add filters to snapshots
+Fix authorize security group ingress
+Optimise_Images
+Optimise_Images
+Optimise_Images
+Extlib
+Managing Director
+Deprecation warning in Rails ~> 2.3.9
+Bump django from 1.2.dev13117 to 2.2.24 in /oebfare_project
+Bump pygments from 1.3.1 to 2.7.4 in /oebfare_project
+push: Try to use sparse checkout to avoid populating the working tree.
+skip git-lfs smuge & filter-process during push operation
+Support nested vendor repositories
+`braid add` should fail if the destination already exists
+ssh running under Braid fails to prompt for passphrase on Windows
+"git clone" error message is useless
+Move to `braid help COMMAND` and `braid COMMAND --help`
+Spaces in command arguments break things
+Support for default branch names other than `master`
+.braids.json written with LF line endings under Windows, causing intermittent warning
+Re-fetching a remote after deletion can be slow
+Add support for repositories with their own submodules
+http://cristibalan.github.io/braid is out of date
+Support running in a subdirectory of the working tree
+Allow braid add/update if there is no uncommitted changes in the target path.
+Add `--no-commit` option to `add`, `update`, and `remove`
+Optimise_Images
+bundler will ask for user password from capistrano
+EYLogger and notify start/stop are not included in the deploy:cold and deploy:rollback tasks
+EYLogger#post_process fails if called in the top-level namespace
+Misleading comments and use of sudo method in mongrel.rb recipes
+Checkdoc warnings
+Created ReadMe.md to add info
+Separate Dictionary sets by language
+Extend formats to allow alpha character
+Fix header formatting
+The loading of 'EC2' failed
+Improvements for HTML5/XHTML specifications.
+Optimise_Images
+acts_as_tenant support?
+Test against Rails 7.0 stable
+Use string class name and constantize
+Uninitialized Constant when defining an audit_class in the initializer
+Support method symbols in max_audits
+Add audited method to parent in docs
+How to track bulk insert?
+How to track only changes made from the controller?
+Incorrect User in Audit
+Setting current_user per model instead of globally
+Edit to ReadMe file to clarify use case for extending Audit model.
+How to restore with original id?
+Issue of showing enum as its representative instead of its hidden value in initializers
+audit on update for some fields and all callback for other fields
+Is there any way to configure this to work when our User table uses a composite primary_key for id?
+Add null constraints to migration file?
+ActiveRecord::StatementInvalid (Mysql2::Error: MySQL server has gone away: ROLLBACK)
+Unable to Save when Model uses Rails Attributes API
+How to generate an audit after calling Model#update_columns? ⛑️ 
+Revert the polymorphic indexes concurrently
+Dependency on Rails
+Looking for readable list of audits
+Audited Could not find generator in Rails 6.1.0
+Masking Sensitive Fields while Keeping a Log of the change event
+Two records created when audit_comment added on create
+unknown attribute 'action' for RecordAudit
+Action_text auditing is not supported
+Deletion of joining records not being audited on Collection Associations
+added check to audit limit
+its work in redmine
+Select MAX("audits.version") is being executed even when I don't set any limit.
+Especific conditions for audition in different actions
+Crash with set_callback: undefined method `append' for nil:NilClass (NoMethodError)
+storext
+Accessing audit corresponding to current transaction in after_commit or after_save
+active_admin execute all query to audits ..
+Per-model auditing is not re-enabled after a `without_auditing` block if auditing is globally disabled at the time
+Warning: wrong number of arguments (given 2, expected 1)
+Trying to "SHOW FULL FIELDS" without the module name of the model
+Support multiple databases
+Is there a way to remove all association columns in the table?
+Added support to Apartment current_tenant
+Redacts values on create
+Add support for after_find and after_archive
+redacted is not applied on create
+undefined method `user_input_in_time_zone'
+Save changed attributes but not the values
+My User model does not use an integer for an ID
+Create an audit record for object not found
+"Audited::Audit.collection_cache_key uses created at" test failure
+active storage file auditing
+can't disable 'comment_required' in child class
+ASCII-8BIT to UTF-8 error with version 4.8.0
+Rails 6 Custom Audit model shows deprecation message in rspec
+created_at and updated_at are not being recorded 4.8
+Trestle Admin
+A way to audit associations
+Could not find generator 'audited:install' with rails 6.0.0beta3 ruby-2.6.1
+Don't drop indices before creating a replacement
+added bigint for ID columns
+Kaminari's `page_method_name` method does not work on Audit model
+Use bigint for foreign keys
+Event Sourcing mention in Readme.md
+Audit Batches using activerecord-import
+Global disable flag is thread-safe now
+different audit table per model?
+Auditing file changes - ActiveStorage
+The duplicate audit version
+AuditedActions
+one record each column
+Blacklist Columns or Models
+rubocop styles + frozen string literals
+Associated audits with HABTM relation
+`#user` does not always return a user
+Easy way to purge audits for GDPR compliance
+Is it possible to use a different storage mechanism than ActiveRecord?
+MySQL error when audit comment is too long
+Remove CLI options in favor of manual migration editing
+Refactor install migration for better readability
+Audited 5.0 discussion - what should we drop?
+Re-fix honoring of 'except' when used with 'comment_required'
+cannot pass audit_comment option for relation#destroy_all
+Undefined class/module error
+Allow multiple associated audits
+Audited 4.5.0 creating an audit where attribute did not change
+Audited Gem : Audited.current_user_method not working
+Traverse audits backwards instead of forwards in time
+#revision_at and related methods should work backwards instead of forward
+is #save_without_auditing thread safe?
+More maintainers needed
+How to transform datas in audited_changes from YAML to JSON ?
+"audited" vs "audited-activerecord" on RubyGems.org
+The required validation which comes from 'belongs_to' in Rails 5 doesn't work
+Custom audit controller(auditor)
+config audit save asynchronize
+Best way to audit has_many through collection records deleted from assignment?
+Remove automatic Sweeper install
+Not working with delayed_job model.
+Proper single-table inheritance support for Audit#revision
+Ability to audit read.
+ActiveRecord::StatementInvalid (Mysql2::Error: Incorrect string value: '\\xD7\\x90\\xD7\\x' for column 'audited_changes'
+Revision timestamp
+Memory leak issues
+Auditing models with UUID pk
+reduce repeated/unnecessary code
+Fix change of  vritual attribute can not be tracked.
+setup without injecting into multiple places
+Increment Version on Association Change
+is audit on :read operation possible
+Multiple associated audits
+Associated audits relation
+Comments when destroying without using validation
+Integration with has_and_belongs_to_many relation
+can't retrieve anonymous class
+Audit potentially influences JSON rendering
+Adding "audited" to model causes "version" attribute to read nil when called
+Avoid orphaned audits
+Different database connection for different model.
+undefined class/module ActiveRecord::ConnectionAdapters::PostgreSQL::OID::Integer during deserialisation
+Initializer for Engines
+Single Table Inherited audits
+Ability to show related audits
+Changing audited_comment field to text datatype.
+Documentation: How to access all audits
+Avoid orphans on destroy to fix issues with MySQL
+associated_audits sorting in wrong column 
+Create a log with filters
+Auditable type in single table inheritance.
+Queries are not appending the database prefix
+Error accessing audits after switching from sqlite3 to mysql
+Strict mode with tracking always enabled
+associated_with to support many `associated_with: []`
+Adding column request_uuid impractical for tables with millions of rows?
+Legacy table has version field.
+problems with Associated
+default_scope and around_filter ignored - multitenancy
+How to associate additional metadata with an audit?
+Can't mass-assign protected attributes for Audited::Adapters::ActiveRecord::Audit: action, audited_changes, comment
+Audit_comment has to be in attr_accessible
+acts_as_audited gem on tables with many to many relationship 
+Is there any way to audit the update action while using update_column?
+Can't call revision() or revision_at() on models using ActiveRecord::Store?
+Audit Globalize translations
+Audit entries with duplicate version numbers
+Is there a way to map a foreign key change to a method on the associated model?
+Problem with translations when destroy on 1.1.1
+after not getting called when controller action raises an exception
+undefined method `audit'
+Apply Conditional Validations when we specify the action on which auditing is desired
+Custom callbacks
+Problem in fetching data for audit table
+Acts as Paranoid Gem
+Performance tuning audited?
+Removing Curly braces
+gemspec licence and test files mismatch
+Audits by user?
+Audited Gem Breaks Marshal
+cannot audit when an association is lost
+auditable_type is set to 'Application' instead of model_class.constantize
+Bump Graticule version constraint
+Bump version constraint for Graticule
+Update unittest.js
+Sbsjsjs.mdiddif.
+Some love for this great little bit of code?
+Google-geocoder also works without a business account
+Update license in gemspec to match LICENSE.txt file
+Loosen faraday gem version constraint
+Required Headers for API, only X-Auth-Token?
+Add support for Ruby2.7?
+relax dependency on faraday
+Update dependencies for use in a Rails 4.2.8+ application
+Optimise_Images
+Bump rdoc from 3.12 to 6.3.2
+Escaping of Environment Variables makes comprehensive escaping harder
+Bump rake from 0.9.2.2 to 12.3.3
+Bump json from 1.6.5 to 1.8.6
+Rush refuses to work
+File::create/File::touch, shall we make it more like the native unix touch?
+can't make rush work
+Resurrect rush
+Adds env.rb note to README
+Add support for `rushrc` file
+Autocompletion failed
+Autocompletion failed
+"invalid byte sequence in UTF-8" in os_x_processes
+passing password from remote
+bash or irb style completion
+error: Significant trailing slashes - remote box uses local filesystem to get info about file!
+Added feature connect to ssh on alternate ports
+1 test fails - box_spec.rb:53
+Doesn't work when remote shell is tcsh
+Extending Array
+Excessive dependency
+Site
+Hi! I cleaned up your code for you!
+Optimise_Images
+Dashes should be allowed in extra class name
+add test.txt
+Add the custom class to the #facebox element so it can be targeted for styling.
+Add IFRAME support for links outside the document Origin
+Added overflow-y CSS autoscroll function
+ignore global jquery ajax setup dataType setting
+iframe support
+Hi! I cleaned up your code for you!
+New setting: overlayClose, stops clicks on overlay from closing facebox
+Option to Restrict Closing
+Add caveat to warn against creating your own #facebox element.
+Change suggested usage in ReadMe
+Using live event
+Support for Rails :method in links
+Added input button support
+Allowing content to be Facebox'd more than once during a single pageview
+Container target
+Allow overrides to fillFaceboxFrom* behavior via $.facebox.fillFrom*
+Better fallback for fillFaceboxFromAjax when fetching fails (e.g. for 404's)
+Fix for image links with a query string
+Set the dataType to 'script'
+How can I re-use HAML blocks?
+HAML 6 request for the parser
+Exception on line 219: Old attributes must start with "{" and end with "}"
+White Space after Compiling to HTML and Watching Live Compiling
+Readme Updates
+Rubocop
+Haml-Spec
+Documentation
+Migrations are missing ...
+Optimise_Images
+Add 420 error
+List add XX YY does not work
+Bump http dependency to 5.0
+ Twitter::Error::NotAcceptable
+Download images/gif from DM
+How to realize the rethrust flow ？
+miss URL
+Homepage-Bug
+Removed the deprecated Twitter::Configuration class
+fix: Twitter Stream Follow limits (#972)
+Update twitter.rb
+Update twitter.rb
+buftok 0.3
+HTTP::ConnectionError: failed to connect: Connection reset by peer - SSL_connect
+Who is maintaining this gem?
+Replace http_parser.rb with llhttp
+Replace http_parser.rb with llhttp
+error with streaming client: response.rb 24 'on_headers_complete' Twitter::Error::InternalServerError
+Unexpected behavior with `add_list_member` and `add_list_members`
+Download image from DM
+stream client proxy not working
+search option for tweets whose text contains search word seperately
+direct_messages_received (and sent) immediately prompts Twitter::Error::TooManyRequests
+Support AccountActivityAPIs
+Unable to retrieve rate limit info from Twitter::REST::Tweets.update
+Use heuristic_parse for untrusted URLs.
+Twitter Stream Follow limits
+CI: Drop unused Travis sudo: false directive
+Could not authenticate you on destroy_direct_message
+Fix asterisk encoding issue
+Typos in spec.
+support httprb gem 4.x/5.x
+How do I use twitter cursor with this gem?
+Ability to log api request/response data
+Returning tweets in threaded format
+User Timeline  (Twitter::Error::Unauthorized) —  Error raised when supplied user credentials are not valid.
+Call for new maintainers for this project
+direct_messages/events/new => Could not authenticate you
+addressable gem conflict
+How to use properly create_direct_message ?
+Unable to suppress an error thrown in a thread
+Wrong version of files in RubyGems for version 6.2.0 (currently latest)
+Logging raw HTTP request
+Ratelimit error not being thrown
+Trying to get a user's tweets (Method: Twitter::REST::Tweets#statuses)
+Unable to post a new DM message using Twitter::REST::Request.
+New 6.3.0 version?
+Can a custom ssl_context be used?
+search results is empty
+JSON Parser Error with Twitter Stream rate limit
+Twitter::Cursor#reached_limit? doesn't return true
+Required Ruby version conflict for 6.2.0
+Rate Limit Exceeeded 
+Is there a recommended workflow for gathering all the credentials less manually?
+Twitter::Error::Forbidden: Your credentials do not allow access to this resource with oauth_token_secret
+get followers with :count option
+Error occured when I called client.update method.
+Debugging old get_all_tweets call
+Rest and Stream APIs are sunsetting by June 19, 2018
+The error occurs when twitter: image and twitter: text shared to twitter  OAuth api
+Error while installing twitter gem
+Gem still not fully compatible with new extended tweets
+NameError: uninitialized constant Twitter::Error::RequestEntityTooLarge
+Showing invalid or Expired Token for Twitter Posts
+For the search, when the result_type  is "popular", count is ignored
+Include support for quote_count and reply_count in the tweet object
+Ruby 2.4, 2.5 support
+Marshal dump fail on NullObject
+Addressable::URI::InvalidURIError
+cursor iteration sometimes exceeds rate limits internally
+Authentication Error in 6.2.0
+Support new webhook APIs
+280 characters via REST API only works for full_text and tweet_mode=extended
+private method 'upload' called for Twitter::REST::Client
+uninitialized constant Twitter::REST
+favorites does not return any result while there are still plenty
+Lazy searching API without Twitter::Error::TooManyRequests: Rate limit exceeded
+Unable to access tweet text when using extended mode
+KeyError: key not found: "TWITTER_CONSUMER_KEY"
+fix upload video multipart
+Hanging sidekiq threads
+relax dependency on faraday 
+Full text support for extended mode
+Add TCP keepalive in Twitter::Streaming::Connection
+How to chech media type?
+options not work for get friends anymore
+New way to update the timeout settings ?
+Failing Example: Add fixture for DM with invalid unicode
+Twitter DMs returning unparsable Unicode
+Added support to new Direct Messages Events endpoint 
+Error on search with hyphens
+:geocode param not returning results
+Twitter::Error::TooManyRequests doesn't seem to have rate limits information anymore?
+Documentation on REST::Search result_type seems out of date
+Enable client configuration using environment variables
+Upload video on 6x version
+[#813] Retreive tweet full text when tweet_mode is extended
+Streaming Direct Messages is not working
+Add public API for media upload with async support
+Change upload conditional
+Rescuing from a rate limitation error in the enumerable 
+Cannot retrieve text
+Looking up large quantity of users yields Thread error
+Twitter::Error::BadRequest: Segments do not add up to provided total file size.
+Twitter::Error: Net::OpenTimeout
+Fixing support for video upload and STATUS commands
+Media Upload: media type unrecognized
+equalizer dependency gem's incompatibility
+retweeters_ids cursor seems to stall out
+Request: Add alt text to image uploads
+Can't disconnect from stream
+Unable to activate twitter-5.16.0, because json-2.0.1 conflicts with json (~> 1.8)
+Enable #update to accept a :media option
+update_with_media has been removed from the api
+oEmbed endpoint changed to publish.twitter.com
+`on_headers_complete': Twitter::Error::Unauthorized
+Would you make API URL configurable?
+Throws Execution expired error very frequently (execution expired (Twitter::Error))
+fix: Can't use proxy by procedure described in Configuration.md (#744)
+Can I use the firehose API
+Is uploading a video supported?
+deprecated API endpoint
+Twitter::Streaming::Event: created_at support.
+Support for the 'map' option in GET statuses/lookup
+the retweet of retweet
+Rescue errors from Addressable?
+Twitter SSL connection error received periodically
+Request: update_with_media using image url and/or TempFile
+RubyTCPSocket:87- TypeError: can't convert nil into String
+Batch requests support
+Implement Collections API
+Twitter::Error::Forbidden This request looks like it might be automated
+Properly escape stream parameters
+Enable since_id option at paging SearchResult
+Implement Twitter Object Nest (TON) API
+Implement Curator APIs
+Asterisks not encoded properly and result in error 32 "Could not authenticate you."
+Apply reading timeout for twitter streaming on 5-stable branch
+Update Twitter::Streaming::Event
+User streaming just waits infinitely when connection becomes stalled 
+Iterating all followers
+GZip compression for streams
+JSON::ParserError: 757: unexpected token
+Support for HTTPS proxy 
+Unable to post multiple images using update_with_media
+About the DM representation in streaming API
+Streaming Updates for v6
+Add Rate Limit Status in Cursor and Introduce Cursor#each_page
+don't store the iterated tweets to save memory space 
+Fix RuntimeError: can't modify frozen Addressable::URI
+`object_attr_reader` attributes do not appear in the documentation
+Steaming API - updating filters/follows
+`sysread': end of file reached (EOFError)
+undefined method `blank?' 
+Have you considered packing it as a gem ?
+Unable to get the values of the application constants from the constants defined in the environment.rb (or application.rb) for the authorization plugin in rails3
+added gemspec
+Error when deleting object that accepts roles
+can we get a way to get to the time stamp for role creation?
+CVE-2020-28168 (Medium) detected in axios-0.19.2.tgz, axios-0.20.0.tgz
+CVE-2020-15168 (Medium) detected in node-fetch-2.6.0.tgz
+CVE-2019-0201 (Medium) detected in zookeeper-3.4.3.jar
+CVE-2019-0201 (Medium) detected in zookeeper-3.4.3.jar
+CVE-2017-5645 (High) detected in log4j-core-2.6.1.jar
+CVE-2017-5645 (High) detected in log4j-core-2.6.1.jar
+CVE-2020-28168 (Medium) detected in axios-0.19.2.tgz, axios-0.20.0.tgz
+CVE-2017-5637 (High) detected in zookeeper-3.4.3.jar
+CVE-2017-5637 (High) detected in zookeeper-3.4.3.jar
+CVE-2020-28168 (Medium) detected in axios-0.19.2.tgz, axios-0.20.0.tgz
+CVE-2020-15168 (Medium) detected in node-fetch-2.6.0.tgz
+CVE-2018-8012 (High) detected in zookeeper-3.4.3.jar
+CVE-2018-8012 (High) detected in zookeeper-3.4.3.jar
+CVE-2020-15168 (Medium) detected in node-fetch-2.6.0.tgz
+CVE-2020-9488 (Low) detected in log4j-core-2.6.1.jar
+CVE-2020-9488 (Low) detected in log4j-core-2.6.1.jar
+Update to Fix Deprecation
+issue after bundle install
+Update https://rubygems.org/gems/userstamp
+before_filter to before_action for Rails 5
+Rails 4.2.5 - conflict with a method creator
+Rails 4 not supported?
+Issue with dynamic_matchers after gem install.
+Update migration helper for Rails 3.2.1 compatability
+Migration helper not working with Rails 3.2.3
+Push latest version to rubygems
+Fixed capitalization for user classname. Now works with names like "AdminUser".
+Best changes from forked repos
+Why does AR::Base get made stampable?
+Userstamps not set when updating/creating children
+creator not set until after validation
+userstamp and authlogic (and possible workarounds?)
+using userstamps in existing schema
+Update README
+Optimise_Images
+Dead link
+Optimise_Images
+Domain expired
+Differentiate between a minCharacters of 0 and undefined. 
+Perhaps adjust matcher to default to case-insensitive matching
+fake console code may need be added to jquery.ui.autocomplete.js
+I think autocomplete.css should be added back to source
+adjustWidth property
+Update README
+Optimise_Images
+Update README.txt
+code128 generation is different with another lib with the same format
+/.../n has a non escaped non ASCII character in non ASCII-8BIT script
+HtmlOutputter give just thin strip of barcode.
+Fix unmatched (: /(?:\d{2}|�){2,}/ exception when requireing the file.
+Support UPC-E
+Remove deprecated option from gemspec
+add valid methods
+Update README
+segfault generating datamatrix barcode
+Barby::QrCode does not implement valid? method
+Issues in scanning generated pdf417 barcode
+MRI compatibility for Pdf417
+Optimise_Images
+Running Runner on DOM loaded
+Fix typo in license text
+Worker inside worker
+deprecated notice
+efficient update job query
+DelayedJob crash if it failed to write error log
+Change the canonical repository
+Unable to access the serialised object in my model
+Incorrect code example removed
+Locale not automatically set
+set_table_name has been deprecated in favor of self.table_name= as of Rails 3.2
+dj and god memory leak in rails application
+warning due to bad paths in gemspec file
+Can I introspect attempts counter?
+NameError (uninitialized constant Delayed::Job):
+Delayed job hangs when running work_off
+I had face issue of worker process being killed so I have handled it in my application and feel like committing hence commiting same 
+A note guiding the reader to the gem's repo (tobi/delayed_job is the firs
+Add travis support
+Fixed jobs not executing in Rails3.1rc5 due to run_at = nil
+Hangs on Multiple Database Connection
+I updated setup info in README to include Rails 3
+Delayed_job returns “syntax error” for process daemon and rake task
+Not an issue.
+readme does not show how to schedule at a specific time
+Paperclip works using the command 'rails server' but not using the basic Mac OS apache installation
+Name your workers with ease
+need a little more docs
+Loading associations doesn't work if class hasn't been loaded
+Untitled
+failed_at (always) empty
+DelaydJob SQL request are very slow
+Rails 3 deprecation - Tasks directory
+No way to unit test send_later effectively
+ActiveRecords, UUIDs and Delayed Job
+Delayed jobs not working on module methods  
+Delayed job gem on gemcutter
+Delayed::Job.work_off not processing items in the queue in the order in which they were added
+delayed_job start creates a new process even if one is already running
+jobs locked but not running
+Truncated YAML crashes the delayed_job daemon
+Exception in db_time_now from Time.zone.now when default_timezone is :local (ie no zone)
+delayed_job dies with database connection issues
+Disable handle_asynchronously in test mode
+DJ expects the delayed Model to inherit from AR? (resolved -> my fault)
+last_error empty
+Failed jobs are performed twice
+Worker naming example
+Rake tasks not loading when used as a Gem
+fix typo: Unkown => Unknown
+WoT - Red Alert rating for the linked URL
+API documentation
