@@ -6,6 +6,7 @@ from torch import nn
 import torch.nn.functional as F
 from torch.utils.data import TensorDataset, DataLoader
 from collections import deque
+from enum import Enum
 
 # Logging handler initialization
 FORMATTER = logging.Formatter("%(message)s")
@@ -17,6 +18,13 @@ logger.addHandler(console_handler)
 logger.setLevel(logging.DEBUG)
 console_handler.setLevel(logging.DEBUG)
 console_handler.setFormatter(FORMATTER)
+
+# Enumeration to map different decisions to a numeric value
+class Actions(Enum):
+    BUY = 0
+    ABSTAIN = 1
+    SELL = 2
+    HOLD = 3
 
 # Simple neural network
 class FFNN(nn.Module):
@@ -76,6 +84,18 @@ class ExpMemory:
         
     def set_prev_s_prime(self, val):
         self.s_next[-1] = val
+        
+    def add(self, s=None, a=None, r=None, s_next=None):
+        self.s.append(s)
+        self.a.append(a)
+        self.r.append(r)
+        self.s_next.append(s_next)
+        
+    def get_prev(self):
+        return (self.s[-1], self.a[-1], self.r[-1], self.s_next[-1])
+    
+    def get_prev_sa_pair(self):
+        return (self.s[-1], self.a[-1])
 
 if __name__ == "__main__":
     # An episode of the stock game
@@ -86,9 +106,7 @@ if __name__ == "__main__":
     buy_price = None
     bought = False
     action = None
-    prev_action = None
-    cur_state = None
-    prev_state = None
+    state = None
     episode_reward = 0
     cur_price = 0
     cur_triple = 0
@@ -105,62 +123,49 @@ if __name__ == "__main__":
     for i in range(8):
         # Update price
         cur_price = prices[i]
-        cur_state = [prices[i]]
+        state = [cur_price]
         
         # Add any rewards to (S, A, R) triples as a result of the
         # price change.
         if i > 0:
+            # Set s' for the previous experience
+            experiences.set_prev_s_prime([cur_price])
+            
+            # Get previous state-action pair (used for calculating reward)
+            s, a = experiences.get_prev_sa_pair()
             price_change = prices[i] - prices[i-1]
-            if prev_action == 0 or prev_action == 3:
-                experiences[i-1][-1] = price_change
+            if a == Actions.BUY or a == Actions.HOLD:
+                experiences.set_prev_r(price_change)
             else:
-                experiences[i-1][-1] = -price_change
-            cur_triple += 1
+                experiences.set_prev_r(0)
         
+        # START LOCATION of the episode
         # Policy to come up with the action
         if not bought:
             if random.random() < 0.5:
-                action = "BUY"
+                action = Actions.BUY
             else:
-                action = "ABSTAIN"
+                action = Actions.ABSTAIN
         else:
             if random.random() < 0.5:
-                action = "SELL"
+                action = Actions.SELL
             else:
-                action = "HOLD"
+                action = Actions.HOLD
         
         # Execution of the action
-        if action == "BUY":
+        if action == Actions.BUY:
             # Change the environment
             buy_price = cur_price
             bought = True
             
-            # Create (S, A, R) triplet
-            state = cur_price
-            experiences.append([state, 1, 0, 0, 0, 0])
-            
-        elif action == "SELL":
+        elif action == Actions.SELL:
             # Change the environment
             episode_reward += cur_price - buy_price
             bought = False
             buy_price = None
             
-            # Create (S, A, R) triplet
-            state = cur_price
-            experiences.append([state, 0, 1, 0, 0, 0])
-            
-        elif action == "ABSTAIN":
-            # Create (S, A, R) triplet
-            state = cur_price
-            experiences.append([state, 0, 0, 1, 0, 0])
-            
-        elif action == "HOLD":
-            # Create (S, A, R) triplet
-            state = cur_price
-            experiences.append([state, 0, 0, 0, 1, 0])
-            
         # Set action as previous action
-        prev_action = action
+        experiences.add(s=state, a=action)
 
     # If the agent owns the stock after the episode is over,
     # add the net gains.
@@ -170,7 +175,6 @@ if __name__ == "__main__":
         buy_price = None
 
     logger.info(f"Total reward for this episode is ${episode_reward}")
-    # logger.info(experiences)
     
     # Get the triples from the episode and preprocess into
     # training data.
