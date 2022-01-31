@@ -35,9 +35,11 @@ def qerror(hist, threshold):
 def optimal_threshold(hist):
     q1 = 0.0
     q2 = 255.0
+    threshold = -1
+    iterations = 0
     
     # Iterations
-    for i in range(10):
+    while True:
         # Set variables at the beginning of the loop
         q1_sum = 0.0
         q1_count = 0
@@ -63,14 +65,39 @@ def optimal_threshold(hist):
         # Calculate means
         q1 = q1_sum / q1_count if q1_count > 0 else 0
         q2 = q2_sum / q2_count if q2_count > 0 else 0
+        
+        # Increment iterations
+        iterations += 1
+        
+        # Check if threshold is the same as in the last iteration
+        if threshold and (q2_min + q1_max) / 2.0 == threshold:
+            print(f"Found threshold in {iterations} iterations.")
+            print(f"Q1 = {q1}")
+            print(f"Q2 = {q2}")
+            return (q2_min + q1_max) / 2.0
+        else:
+            threshold = (q2_min + q1_max) / 2.0
 
-    return (q2_min + q1_max) / 2.0
+    
 
 if __name__ == "__main__":
     h = {
         10: 3,
+        35: 5,
+        45: 2,
         53: 3,
+        92: 6,
         100: 5,
+        115: 2,
+        125: 3,
+        128: 1,
+        136: 6,
+        164: 4,
+        165: 2,
+        166: 2,
+        167: 2,
+        192: 7,
+        220: 7,
         255: 1
     }
     print(optimal_threshold(h))
