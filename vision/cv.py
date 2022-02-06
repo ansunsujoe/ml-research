@@ -1,8 +1,48 @@
-from re import A
 import numpy as np
 
-def linear_scaling(hist, A, B):
-    print(min(hist.keys()))
+def create_hist(array):
+    """
+    Create Histogram from 2D Numpy Array
+    """
+    # Histogram as a dictionary
+    hist = {}
+    rows, cols = array.shape
+    
+    # Iterate through the array
+    for r in range(rows):
+        for c in range(cols):
+            if hist.get(array[r][c]) is None:
+                hist[array[r][c]] = 1
+            else:
+                hist[array[r][c]] += 1
+    return hist
+
+def linear_scaling(array, A=0, B=255):
+    # Identify range of current histogram
+    hist = create_hist(array)
+    a = min(hist.keys())
+    b = max(hist.keys())
+    
+    # Create a new histogram that has the scaling mapping
+    mapping = {}
+    for x in hist:
+        # Formula for linear scaling
+        new_x = ((x - a) * (B - A) / (b - a)) + A
+        mapping[x] = round(new_x)
+        
+    # Apply the scaling to the array
+    scaled = np.zeros(array.shape)
+    for r in range(scaled.shape[0]):
+        for c in range(scaled.shape[1]):
+            scaled[r][c] = mapping[array[r][c]]
+    
+    # Return
+    return scaled
+
+def hist_equalization(array):
+    # Define initial variables
+    k = np.max(array)
+    
 
 def qerror(hist, threshold):
     q1 = 0.0
@@ -74,6 +114,7 @@ def optimal_threshold(hist):
             print(f"Found threshold in {iterations} iterations.")
             print(f"Q1 = {q1}")
             print(f"Q2 = {q2}")
+            print(f"Total Error: {qerror(hist, threshold)}")
             return (q2_min + q1_max) / 2.0
         else:
             threshold = (q2_min + q1_max) / 2.0
@@ -82,22 +123,9 @@ def optimal_threshold(hist):
 
 if __name__ == "__main__":
     h = {
-        10: 3,
-        35: 5,
-        45: 2,
-        53: 3,
-        92: 6,
-        100: 5,
-        115: 2,
-        125: 3,
-        128: 1,
-        136: 6,
-        164: 4,
-        165: 2,
-        166: 2,
-        167: 2,
-        192: 7,
-        220: 7,
-        255: 1
+        6: 6,
+        10: 2,
+        17: 7,
+        88: 1
     }
     print(optimal_threshold(h))
